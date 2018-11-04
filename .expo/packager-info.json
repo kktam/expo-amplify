@@ -1,9 +1,9 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 19316,
-  "expoServerNgrokUrl": "https://7y-dzj.anonymous.expo-amplify.exp.direct",
-  "packagerNgrokUrl": "https://packager.7y-dzj.anonymous.expo-amplify.exp.direct",
-  "ngrokPid": 15020,
-  "devToolsPort": 19002
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "devToolsPort": 19002,
+  "expoServerPort": null
 }

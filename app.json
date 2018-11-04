@@ -1,11 +1,14 @@
 {
   "expo": {
     "name": "expo-amplify",
-    "description": "This project is really great.",
+    "description": "Demo project for Expo React App using AWS Amplify",
     "slug": "expo-amplify",
     "privacy": "public",
     "sdkVersion": "31.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "githubUrl": "https://github.com/kktam/expo-amplify"
   }
 }
