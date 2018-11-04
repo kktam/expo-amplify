@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { withAuthenticator } from 'aws-amplify-react-native'
 
 import Amplify from '@aws-amplify/core'
-import config from './aws-exports'
+import config from './src/main/res/raw/awsconfiguration.json'
 Amplify.configure(config)
 
 class App extends React.Component {
