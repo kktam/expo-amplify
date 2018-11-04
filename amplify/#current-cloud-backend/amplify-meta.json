@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "expoamplify-20181103163534-authRole",
+            "UnauthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "expoamplify-20181103163534-deployment",
+            "UnauthRoleName": "expoamplify-20181103163534-unauthRole",
+            "StackName": "expoamplify-20181103163534",
+            "StackId": "arn:aws:cloudformation:us-west-2:186001529570:stack/expoamplify-20181103163534/29529400-dfc1-11e8-88e6-503ac9ec24d1"
+        }
+    }
+}
