@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { withAuthenticator } from 'aws-amplify-react-native'
 
 import Amplify from '@aws-amplify/core'
-import config from './src/main/res/raw/awsconfiguration.json'
+import config from './aws-exports'
 Amplify.configure(config)
 
 class App extends React.Component {
@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Open up App.js to start working on your app!</Text>
-        <Text>Yo!</Text>      
+        <Text>Hello Canada!</Text>      
       </View>
     );
   }
