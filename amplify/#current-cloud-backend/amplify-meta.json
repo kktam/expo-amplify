@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/expoamplify-20181103163534-deployment/amplify-cfn-templates/auth/cognitofba6843a-cloudformation-template.yml",
 				"logicalId": "authcognitofba6843a"
 			},
-			"lastPushTimeStamp": "2018-11-04T01:16:26.245Z",
+			"lastPushTimeStamp": "2018-11-04T23:09:22.721Z",
 			"output": {
 				"AppClientSecret": "sb2vnig6mgm3bp0kvirn74tod8tb239e75fp7r25ie8023mf3rg",
 				"UserPoolId": "us-west-2_MMOcrjsFv",
@@ -30,6 +30,24 @@
 				"UserPoolName": "cognitofba6843a_userpool_fba6843a"
 			},
 			"lastPushDirHash": "uHGkTGmKIjPnB6eGwR/u6dwdj9M="
+		}
+	},
+	"api": {
+		"expoamplify": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "coqjjgqscvaozldnl3iyd42uye",
+				"GraphQLAPIEndpointOutput": "https://4otcguucsvfvpgddh73uayrx7q.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-a2y5j6bqofaczenk3rs7olo3py"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/expoamplify-20181103163534-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiexpoamplify"
+			},
+			"lastPushTimeStamp": "2018-11-04T23:09:24.601Z",
+			"lastPushDirHash": "r9tjAHaKHwtBgWN9PUH1thk4WUU="
 		}
 	}
 }

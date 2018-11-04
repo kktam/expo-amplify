@@ -19,5 +19,13 @@
             "AppClientSecret": "sb2vnig6mgm3bp0kvirn74tod8tb239e75fp7r25ie8023mf3rg",
             "Region": "us-west-2"
         }
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://4otcguucsvfvpgddh73uayrx7q.appsync-api.us-west-2.amazonaws.com/graphql",
+            "Region": "us-west-2",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-a2y5j6bqofaczenk3rs7olo3py"
+        }
     }
 }
