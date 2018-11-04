@@ -1,14 +1,35 @@
 {
-    "providers": {
-        "awscloudformation": {
-            "AuthRoleName": "expoamplify-20181103163534-authRole",
-            "UnauthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "expoamplify-20181103163534-deployment",
-            "UnauthRoleName": "expoamplify-20181103163534-unauthRole",
-            "StackName": "expoamplify-20181103163534",
-            "StackId": "arn:aws:cloudformation:us-west-2:186001529570:stack/expoamplify-20181103163534/29529400-dfc1-11e8-88e6-503ac9ec24d1"
-        }
-    }
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "expoamplify-20181103163534-authRole",
+			"UnauthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::186001529570:role/expoamplify-20181103163534-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "expoamplify-20181103163534-deployment",
+			"UnauthRoleName": "expoamplify-20181103163534-unauthRole",
+			"StackName": "expoamplify-20181103163534",
+			"StackId": "arn:aws:cloudformation:us-west-2:186001529570:stack/expoamplify-20181103163534/29529400-dfc1-11e8-88e6-503ac9ec24d1"
+		}
+	},
+	"auth": {
+		"cognitofba6843a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/expoamplify-20181103163534-deployment/amplify-cfn-templates/auth/cognitofba6843a-cloudformation-template.yml",
+				"logicalId": "authcognitofba6843a"
+			},
+			"lastPushTimeStamp": "2018-11-04T01:16:26.245Z",
+			"output": {
+				"AppClientSecret": "sb2vnig6mgm3bp0kvirn74tod8tb239e75fp7r25ie8023mf3rg",
+				"UserPoolId": "us-west-2_MMOcrjsFv",
+				"AppClientIDWeb": "4qeb8ugpum7dbaprvaukijh8cf",
+				"AppClientID": "2rttc28492cul98ukddfcetqqe",
+				"IdentityPoolId": "us-west-2:38ba248e-81a8-481f-a1ba-bec5b809c55e",
+				"IdentityPoolName": "cognitofba6843a_identitypool_fba6843a",
+				"UserPoolName": "cognitofba6843a_userpool_fba6843a"
+			},
+			"lastPushDirHash": "uHGkTGmKIjPnB6eGwR/u6dwdj9M="
+		}
+	}
 }
